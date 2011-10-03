@@ -1,0 +1,31 @@
+NAME
+    Test::RDF::DOAP::Version - tests 'meta/changes.ttl' is up to date
+
+DESCRIPTION
+    "doap_version_ok($dist, $module)"
+        Checks the distribution metadata matches the pattern:
+
+                ?dist doap:release ?rel .
+                ?rel doap:revision ?ver .
+
+        Where ?dist is the URI
+        "http://purl.org/NET/cpan-uri/dist/%s/project" (%s having been
+        substituted for $dist) and ?ver is the $VERSION from $module, as an
+        xsd:string or plain literal.
+
+BUGS
+    Please report any bugs to
+    <http://rt.cpan.org/Dist/Display.html?Queue=Test-RDF-DOAP-Version>.
+
+SEE ALSO
+    Module::Install::DOAPChangeSets.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT AND LICENCE
+    This software is copyright (c) 2011 by Toby Inkster.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
