@@ -9,7 +9,7 @@ use RDF::Trine qw[iri variable literal blank statement];
 use Test::More;
 use URI::Escape qw[uri_escape];
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 our @EXPORT  = qw(doap_version_ok);
 our $DOAP    = RDF::Trine::Namespace->new('http://usefulinc.com/ns/doap#');
 

@@ -10,8 +10,19 @@
 dist:project :release dist:v_0-001 .
 dist:v_0-001
 	a               :Version ;
-	dc:issued       ""^^xsd:date ;
+	dc:issued       "2011-10-06"^^xsd:date ;
 	:revision       "0.001"^^xsd:string ;
 	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Test-RDF-DOAP-Version-0.001.tar.gz> ;
 	rdfs:label      "Initial release" .
 
+
+dist:project :release dist:v_0-002 .
+dist:v_0-002
+	a               :Version ;
+	dc:issued       "2011-10-06"^^xsd:date ;
+	:revision       "0.002"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Test-RDF-DOAP-Version-0.002.tar.gz> ;
+	dcs:changeset [
+		dcs:versus dist:v_0-001 ;
+		dcs:item   [ a dcs:Packaging ; rdfs:label "Upgrade Module::Package::RDF version."@en ] 
+	] .
