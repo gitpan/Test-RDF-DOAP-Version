@@ -1,4 +1,5 @@
 ---
+abstract: "tests 'meta/changes.ttl' is up to date"
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
@@ -31,4 +32,5 @@ resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Test-RDF-DOAP-Version
   homepage: https://metacpan.org/release/Test-RDF-DOAP-Version
   license: http://dev.perl.org/licenses/
-version: 0.003
+  repository: https://bitbucket.org/tobyink/p5-test-rdf-doap-version
+version: 0.004
