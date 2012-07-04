@@ -33,4 +33,4 @@ resources:
   homepage: https://metacpan.org/release/Test-RDF-DOAP-Version
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-test-rdf-doap-version
-version: 0.005
+version: 0.006
