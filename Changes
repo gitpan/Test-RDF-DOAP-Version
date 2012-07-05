@@ -5,6 +5,10 @@ Created:      2011-10-03
 Home page:    <https://metacpan.org/release/Test-RDF-DOAP-Version>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Test-RDF-DOAP-Version>
 
+0.007  2012-07-05  # Bond, James Bond
+
+ - (Packaging) Bump RDF::TriN3 dependency to 0.201
+
 0.006  2012-07-04
 
  - (Bugfix) Ooops, forgot to 'use RDF::TrineX::Parser::Pretdsl'.

@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.59
 distribution_type: module
-dynamic_config: 1
+dynamic_config: 0
 generated_by: 'Module::Install version 1.06'
 keywords: []
 license: perl
@@ -23,7 +23,7 @@ no_index:
     - t
     - xt
 requires:
-  RDF::TriN3: 0.200
+  RDF::TriN3: 0.201
   RDF::Trine: 0.135
   Test::More: 0
   URI::Escape: 0
@@ -33,4 +33,4 @@ resources:
   homepage: https://metacpan.org/release/Test-RDF-DOAP-Version
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-test-rdf-doap-version
-version: 0.006
+version: 0.007
