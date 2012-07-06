@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 5fc3a451c1e3d5ef105d3a1142aa4a12c1a86cc6 Changes
+SHA1 e499598fef7c3aa630c8bf797e5e40b0659010ef Changes
 SHA1 cc087c3dd6e1b519c680e68cd0231735a68300a0 LICENSE
 SHA1 516193fb6517e0dade33819c0e8977edd34cc759 MANIFEST
-SHA1 f3a7fe57de85b7a4ab67229c60d526171df094f1 META.yml
+SHA1 b0b5f78c4526cb6affec2b81e77fd422043f22f9 META.yml
 SHA1 80519f46cf4d005b59c73d680d3f90aef176d9bd Makefile.PL
 SHA1 c05ea4f87233f0581a17fd19f459eced15af2a9c README
 SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
@@ -35,20 +35,20 @@ SHA1 9de7b5129351499c048328dfa718d0eab557cf30 inc/Module/Install/TrustMetaYml.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
-SHA1 44c4eb4e1519e4e76937b168dae04528d777b7a1 inc/Module/Package/Dist/RDF.pm
+SHA1 8d909d81d2f98514d42f67a972a489ff624a4183 inc/Module/Package/Dist/RDF.pm
 SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
 SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
 SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 085d498f3a85a288d36bd32b6ad27b90a6835080 lib/Test/RDF/DOAP/Version.pm
-SHA1 9d292974f4523c630ffd33bd161617c26d49e0dc meta/changes.ttl
+SHA1 6fb3431b3d56e17b47ce2c79d5336a9fae2555e3 lib/Test/RDF/DOAP/Version.pm
+SHA1 8eb3d5144220e26af4fbd61fc3cb611b0db39b71 meta/changes.ttl
 SHA1 c4c1221ca3a4ec9b3c3248c9d87e6194952716c6 meta/doap.ttl
-SHA1 50754a1d4272a45adb3d32dc595ee7e9f9b78a39 meta/makefile.ttl
+SHA1 a18edc054101feda2e1313e026e6006dac876bf9 meta/makefile.ttl
 SHA1 81942c627f9fc0bdb13515c5b37d026ccc45848d t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk/1fi8ACgkQzr+BKGoqfTmYFwCfcZouP3UuStYvRcAbWswcJYfh
-ljgAn2vixW633IXO/s7tvjycK7Yrhfp2
-=jdMC
+iEYEARECAAYFAk/2LekACgkQzr+BKGoqfTlD2gCfYTy9HndJ2p1g3MS0GlsZtRM8
+FTkAoI0rzVrs+IgFr1Jt+I21QvSmGRmW
+=/7EI
 -----END PGP SIGNATURE-----

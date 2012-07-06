@@ -23,7 +23,7 @@ no_index:
     - t
     - xt
 requires:
-  RDF::TriN3: 0.201
+  RDF::TriN3: 0.202
   RDF::Trine: 0.135
   Test::More: 0
   URI::Escape: 0
@@ -33,4 +33,4 @@ resources:
   homepage: https://metacpan.org/release/Test-RDF-DOAP-Version
   license: http://dev.perl.org/licenses/
   repository: https://bitbucket.org/tobyink/p5-test-rdf-doap-version
-version: 0.007
+version: 0.008
