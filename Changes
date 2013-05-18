@@ -5,6 +5,11 @@ Created:      2011-10-03
 Home page:    <https://metacpan.org/release/Test-RDF-DOAP-Version>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Test-RDF-DOAP-Version>
 
+0.009  2013-05-19
+
+ - (Bugfix) Explicitly load URI::file.
+ - (Packaging) General tidy-up.
+
 0.008  2012-07-06
 
  - (Packaging) Bump RDF::TriN3 dependency to 0.202.
